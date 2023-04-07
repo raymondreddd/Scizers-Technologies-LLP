@@ -1,0 +1,15 @@
+{{> main}}
+
+<h1 class="mb-4">Add New Contact</h1>
+<form action="/contacts" method="POST">
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" class="form-control" name="name" required>
+  </div>
+  <div class="form-group">
+    <label for="mobile">Mobile Number</label>
+    <input type="text" class="form-control" name="mobile" required>
+  </div>
+  <button type="submit" class="btn btn-primary">Save</button>
+</form>
+
